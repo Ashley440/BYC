@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+html {
+  font-size: 20px;
+  font-family: 'Roboto';
+  
+  
+}
+
+body {
+  background: #1A4A5A;
+}
+
+.wrapper {
+  height: 100vh;
+  position: fixed;
+  top: 200px;
+  right: 100px;
+}
+
+.fas.fa-envelope {
+  color: #fff;
+  font-size: 2rem;
+  background: #333;
+  padding: 1rem;
+  border-radius: 100%;
+  margin: 0 0 1rem 0;
+}
+
+.card-content {
+  max-width: 30rem;
+  background-color: #fff;
+  position: relative;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 1rem;
+  padding: 4rem .5rem;
+  box-shadow: 1px 1px 2rem rgba(0,0,0,.3);
+  text-align: center;
+  display: none;
+}
+
+.card-content h1 {
+  text-transform: uppercase;
+  margin: 0 0 1rem 0;
+}
+
+.card-content p {
+  font-size: .8rem;
+  margin: 0 0 2rem 0;
+}
+
+input {
+  padding: .8rem 1rem;
+  width: 40%;
+  border-radius: 5rem;
+  outline: none;
+  border: .1rem solid #d1d1d1;
+  font-size: .7rem;
+}
+
+::placeholder {
+  color: #d1d1d1;
+}
+
+
+.subscribe-btn2 {
+    padding: .8rem 2rem;
+    border-radius: 5rem;
+    background-color: goldenrod;
+    color: ghostwhite;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: fixed;
+    right: 3%;
+    top: 5%;
+    
+  }
+  .subscribe-btn2:hover {
+    background: rgb(36, 165, 1);
+    color: ghostwhite;
+    font-size: 10px;
+    border: solid;
+    border-color: ghostwhite;
+    transition: 0.3s;
+  }
+
+
+  .subscribe-btn1 {
+    padding: .8rem 2rem;
+    border-radius: 5rem;
+    background-color: goldenrod;
+    color: ghostwhite;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: fixed;
+    right: 12%;
+    top: 5%
+  }
+  .subscribe-btn1:hover {
+    background: rgb(0, 0, 0);
+    color: ghostwhite;
+    font-size: 10px;
+    border: solid;
+    border-color: ghostwhite;
+    transition: 0.3s;
+  }
+  .subscribe-btn3 {
+    text-decoration: none;
+    padding: .8rem 2rem;
+    border-radius: 5rem;
+    background-color: goldenrod;
+    color: ghostwhite;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: fixed;
+    right: 11%;
+    top: 5%
+  }
+  .subscribe-btn3:hover {
+    background: rgb(0, 29, 249);
+    color: ghostwhite;
+    font-size: 10px;
+    border: solid;
+    border-color: ghostwhite;
+    transition: 0.3s;
+  }
+ 
+  form{
+      background-image: linear-gradient(to right, rgb(12, 65, 109) , rgb(205, 150, 150));
+      border-radius: 100px;
+      text-align: center;
+  }
+  input{
+      text-align: center;
+  }
+  
+
+#masterCard{
+  margin-top: 20%;
+}
+
+
+
+  .imageGrid{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 10%;
+    text-align: center;
+    padding: 0;
+    width: fit-content;
+  }
+  
+  .imageItems{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    padding:20px;
+    border: solid white 1px;
+    border-radius: 5px;
+    background-color: #016d91;
+  }
+  
+  .imageItems h2{
+    color: goldenrod;
+    font-family: papyrus;
+  }
+
+  .imageItems h6{
+    color: rgb(224, 210, 15);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .rows{
+    background-color: #1A4A5A;
+    border-radius: 10px;
+    border-style: solid ;
+    border-color: white;
+    border-width: 1px;
+    width: 250px;
+    margin-top: 20px;
+  }
+  .rows:hover{
+    background-color: white;
+    border-color: goldenrod;
+  }
+  
+  
+  img{
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  #logo{
+    position: fixed;
+    top:5%;
+    left:15%;
+    border-radius: 50%;
+    height: 14%;
+  }
+  #navbar{
+    position: fixed;
+    top:0;
+    background-color: black;
+    height: 15%;
+    width: 100%;
+  }

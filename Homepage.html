@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BYC-Home</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+  </head>
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase-app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase-database.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase-auth.js"></script>
+  <script src="./script.js"></script>
+
+
+  <div id="navbar">
+    <h>Hi</h>
+  </div>
+  <img id="logo" src="https://drive.google.com/uc?export=view&id=1rpLwCqdf07naG-C1qphOmedMT4bQW1dH">
+    <a class="subscribe-btn3" href="StorePage.html">Local Store</a>
+    <button class="subscribe-btn2" onclick="openForm()">Register</button>
+  
+
+
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylsheet.css">
+  <link rel="stylesheet" href="stysheetmobile.css">
+
+
+
+
+
+  <div class="imageGrid" id="masterCard">
+    <div class="imageItems">
+      <div class="rows">
+        <h2>Azo Mfinyongo</h2>
+        <img src="https://drive.google.com/uc?export=view&id=171Sb_r-HYyNCkE4HwVZRIQmlIBFAY6Za">
+        <h6>440 000+</h6>
+      </div>
+
+      <div class="rows">
+        <h2>Bravo le Roux</h2>
+        <img src="https://drive.google.com/uc?export=view&id=1JPxV8e68PZg0lpzMYXoYrCIL60tlPyPs">
+        <h6>690 000+</h6>
+      </div>
+
+      <div class="rows">
+        <h2>Holy Alfa</h2>
+        <img src="https://drive.google.com/uc?export=view&id=1jOJikJvpCmG11XcFRMZX2MkvDBYz5r9I">
+        <h6>940 000+</h6>
+      </div>
+
+      <div class="rows">
+        <h2>Azo Mfinyongo</h2>
+        <img src="https://drive.google.com/uc?export=view&id=1Gi0FPbBgzjpgXui4RGOmkb_e7I4o_qgp">
+        <h6>298 000+</h6>
+      </div>
+
+      <div class="rows">
+        <h2>Bravo le Roux</h2>
+        <img src="https://drive.google.com/uc?export=view&id=171Sb_r-HYyNCkE4HwVZRIQmlIBFAY6Za">
+        <h6>690 000+</h6>
+      </div>
+  </div>
+  
+  
+  <div  class="wrapper">
+    <form action="#" class="card-content" id="card-content">
+      <div class="container">
+        <div class="image">
+          <i class="fas fa-envelope"></i>
+        </div>
+        <h1>Register</h1>
+        <p>Register with Buy Your Craft today and enjoy the benefits</p>
+      </div>
+      <div class="form-input">
+        <label for="email"></label>
+        <input id="email" type="email" placeholder="Your Email"></br>
+        <input id="password" type="email" placeholder="Your Password"></br>
+        <input id="full_name" type="email" placeholder="Your Full Name"></br>
+        <input id="category" type="email" placeholder="Your Category"></br>
+        <input id="address" type="email" placeholder="Your Address"></br>
+        <button type="button" class="subscribe-btn" onclick="register()">Register</button>
+      </div>
+    </form>
+  </div>
+
+  <div  class="wrapper">
+    <form action="#" class="card-content" id="card-content2">
+      <div class="container">
+        <div class="image">
+          <i class="fas fa-envelope"></i>
+        </div>
+        <h1>Sign in</h1>
+        <p>Already a member? Update your profile.</p>
+      </div>
+      <div class="form-input">
+        <label for="email"></label>
+        <input id="email" type="email" placeholder="Your Email"></br>
+        <input id="password" type="email" placeholder="Your Password"></br>
+        <button type="button" class="subscribe-btn" onclick="login()">Login</button>
+      </div>
+    </form>
+  </div>
+
+
+</body>
+</html>
